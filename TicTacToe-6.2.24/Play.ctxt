@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Play
+comment0.text=\r\n\ \ \ \ \ \ \ \ Ultimate\ Tic-Tac-Toe\:\ Simple\ Instructions\r\n\ \ \ \ \ \ \ \ Objective\:\r\n\ \ \ \ \ \ \ \ Win\ three\ 3x3\ boxes\ in\ a\ row\ (horizontally,\ vertically,\ or\ diagonally)\ on\ a\ 9x9\ board.\r\n\r\n\ \ \ \ \ \ \ \ Setup\:\r\n\r\n\ \ \ \ \ \ \ \ The\ board\ is\ a\ 9x9\ grid,\ divided\ into\ nine\ 3x3\ boxes.\r\n\ \ \ \ \ \ \ \ Players\ take\ turns\ placing\ X\ or\ O.\r\n\ \ \ \ \ \ \ \ Gameplay\:\r\n\r\n\ \ \ \ \ \ \ \ First\ Move\:\ Player\ 1\ can\ place\ an\ X\ anywhere\ on\ the\ board.\r\n\ \ \ \ \ \ \ \ Subsequent\ Moves\:\r\n\ \ \ \ \ \ \ \ The\ square\ where\ Player\ 1\ places\ their\ X\ determines\ which\ 3x3\ box\ Player\ 2\ must\ play\ in\ next.\r\n\ \ \ \ \ \ \ \ Example\:\ If\ Player\ 1\ places\ an\ X\ in\ the\ top-right\ cell\ of\ a\ 3x3\ box,\ Player\ 2\ must\ place\ their\ O\ in\ the\ top-right\ 3x3\ box.\r\n\ \ \ \ \ \ \ \ If\ the\ required\ 3x3\ box\ is\ full\ or\ already\ won,\ the\ player\ can\ place\ their\ marker\ anywhere\ on\ the\ board.\r\n\ \ \ \ \ \ \ \ Winning\ a\ 3x3\ Box\:\r\n\r\n\ \ \ \ \ \ \ \ Get\ three\ of\ your\ markers\ in\ a\ row\ (horizontally,\ vertically,\ or\ diagonally)\ within\ a\ 3x3\ box\ to\ win\ that\ box.\r\n\ \ \ \ \ \ \ \ Winning\ the\ Game\:\r\n\r\n\ \ \ \ \ \ \ \ The\ first\ player\ to\ win\ three\ 3x3\ boxes\ in\ a\ row\ (horizontally,\ vertically,\ or\ diagonally)\ wins\ the\ game.\r\n\ \ \ \ \ \ \ \ Special\ Rules\:\r\n\r\n\ \ \ \ \ \ \ \ If\ a\ 3x3\ box\ is\ full\ and\ no\ player\ wins\ it,\ it\u2019s\ tied\ and\ remains\ neutral.\r\n\ \ \ \ \ \ \ \ Players\ must\ move\ within\ the\ dictated\ 3x3\ box\ unless\ it\u2019s\ full\ or\ won.\r\n\ \ \ \ \ \ \ \ End\ of\ Game\:\r\n\r\n\ \ \ \ \ \ \ \ The\ game\ ends\ when\ a\ player\ wins\ three\ 3x3\ boxes\ in\ a\ row.\r\n\ \ \ \ \ \ \ \ If\ all\ boxes\ are\ filled\ and\ no\ one\ has\ three\ in\ a\ row,\ the\ game\ is\ a\ draw.\r\n\ \ \ \ \ \ \ \ Enjoy\ the\ game\!\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=e
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=g
+comment4.target=void\ paintComponent(java.awt.Graphics)
+comment5.params=g
+comment5.target=void\ animation(java.awt.Graphics)
+comment6.params=seconds
+comment6.target=void\ sleep(int)
+numComments=7
